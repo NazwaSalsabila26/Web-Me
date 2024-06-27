@@ -1,0 +1,100 @@
+body{
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #242323;
+    color: #fff;
+    padding: 1 1rem;
+}
+.logo a{
+    color: #85c0ea;
+    text-decoration: none;
+}
+.logo span{
+    color: #fff;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav ul li{
+    margin: 0 10px;
+    padding: 0 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: all ease .4s;
+}
+.nav ul li a:hover{
+    color: #85c0ea;
+}
+.banner{
+background-color: #23313d;
+border: 10px;
+padding: 8px;
+width: 100%;
+}
+.gelombang{
+background-color: #559adf; 
+color: #ffff;
+border-radius: 5px; 
+padding: 5px; 
+margin: 3px; 
+width: 7%;
+}
+.datadiri{
+background-color: #89c1f8;
+color: #3a5671;
+border-radius: 5px; 
+border: 10px;
+padding: 8px;
+margin: 8px;
+width: 100%;
+}
+.dataortu{
+background-color: #89c1f8;
+color: #3a5671;
+border-radius: 5px; 
+border: 10px;
+padding: 8px;
+margin: 8px;
+width: 100%;
+}
+.datawali{
+background-color: #89c1f8;
+color: #3a5671;
+border-radius: 5px; 
+border: 10px;
+padding: 8px;
+margin: 8px;
+width: 100%;
+}
+.backperhatian{
+background-color: #bfdaf5;
+color: #3a5671;
+border-radius: 7px; 
+border: 10px;
+padding: 2px;
+margin: 1px;
+width: 95%;
+}
+input[type="submit"]{
+background-color: #67b2f8;
+color: white;
+font-weight: bold;
+padding: 10px;
+border: 1px solid #67b2f8;
+border-radius: 10px;
+}
+input[type="submit"]{
+background-color: rgb(42, 155, 165);
+border: 1px solid rgb(42, 155, 165);
+cursor: pointer;
+}
